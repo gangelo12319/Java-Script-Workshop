@@ -3,7 +3,7 @@ const axios = require('axios');
 const dotenv = require("dotenv");
 dotenv.config();
 
-const router = express.Router();
+const router = express.Router(); 
 const API_URL = process.env.API_URL;
 
 router.get("/", async(req,res)=>{
